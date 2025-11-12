@@ -25,11 +25,6 @@ local function processSound(sound)
         if not id then return end
         GunSoundRemote:FireServer(workspace, id, 1)
         if id == TARGET_ID then
-             local args = {
-	         18635845425,
-	         "021TwinkleYellow"
-             }
-            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ApplyEmmiter"):InvokeServer(unpack(args))
             sendSlot(currentSlot)
             if currentSlot == SLOT_1 then
                 currentSlot = SLOT_2

@@ -37,7 +37,7 @@ local function processSound(sound)
                 currentSlot = SLOT_1
                 local args = {
 	            18635845425,
-	            "001Remove"
+	            "021TwinkleYellow"
                 }
                 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ApplyEmmiter"):InvokeServer(unpack(args))
             end

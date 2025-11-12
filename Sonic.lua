@@ -1,4 +1,3 @@
-loadstring(game:HttpGet("https://github.com/AdmBrookhavenScripts/Sonic1/raw/refs/heads/main/Protected%20SonicXSuper.txt"))()
 local Players = game:GetService("Players")
 local plr = Players.LocalPlayer
 local target = plr.Character or plr.CharacterAdded:Wait()

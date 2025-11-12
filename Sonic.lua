@@ -35,11 +35,14 @@ local function processSound(sound)
                 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ApplyEmmiter"):InvokeServer(unpack(args))
             else
                 currentSlot = SLOT_1
-                local args = {
+				task.wait(1)
+				task.spawn(function()
+				local args = {
 	            18635845425,
 	            "021TwinkleYellow"
                 }
                 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ApplyEmmiter"):InvokeServer(unpack(args))
+				end)
             end
         end
     end)
